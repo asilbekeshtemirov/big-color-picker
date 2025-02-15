@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Background Color Picker</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="color-picker">
+          <h1 class="title">Change Background color</h1>
+          <form class="pick-color" id="color-picker">
+            <input type="color" name="color" id="colorPicker" hidden />
+            <label for="colorPicker" class="custom-color-picker"
+              >🎨 Pick Color</label
+            >
+          </form>
+          <div class="actions">
+            <button form="color-picker" type="submit" class="set">Set 🎯</button>
+            <button form="color-picker" type="reset" class="reset">Reset 🔃</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
