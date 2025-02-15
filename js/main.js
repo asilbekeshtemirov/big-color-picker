@@ -1,10 +1,6 @@
 const formEl = document.querySelector("#color-picker")
 console.log(formEl);
 
- // From events
- // - submit
- // - reset
-
  formEl.addEventListener("submit", function (event){
     event.preventDefault()
     let color = this.color.value
